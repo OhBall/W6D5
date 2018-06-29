@@ -1,0 +1,163 @@
+body {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url("./images/cage.jpg");
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  display: block;
+  margin: 0 auto;
+  width: 570px;
+}
+.clock h1{
+
+}
+.clock-body{
+  font-family: Orbitron;
+  color: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*ywjAuM3xG7J9zoE0DHXXTQ.png");
+  background-size: cover;
+}
+
+.time, .date{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 32px;
+  margin: 0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /* height: 75px; */
+}
+
+.time {
+  padding-top: 20px;
+}
+
+.time p, .date p{
+  margin: 0;
+  line-height: 34px;
+}
+
+.tabs {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.tab-headers{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin: 0;
+}
+
+.tab-headers h1{
+  font-size: 15px;
+  margin: 0px;
+}
+
+.tab-headers li{
+  padding: 5px;
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 33.3333%;
+  background-color: pink;
+  color: black;
+  text-shadow: none;
+}
+
+.tab-headers li h1 {
+  text-align: center;
+}
+
+.tab-headers li:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.tab-content {
+  background-color: pink;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: Impact;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 1px;
+}
+
+.tab-headers li.selected {
+  border: none;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tab-0 {
+  background-image: url("https://media.giphy.com/media/5bvKQc6PLnqvhG0Bxj/giphy.gif");
+  background-position: -300px;
+  background-size: cover;
+}
+
+.tab-1 {
+  background-image: url("https://media.giphy.com/media/2BJv5B9fjr0nS/giphy.gif");
+  background-position: -150px;
+  background-size: cover;
+}
+
+.tab-2 {
+  background-image: url("https://media.giphy.com/media/3YGKFfw611fZS/giphy.gif");
+  background-position: ;
+  background-size: cover;
+}
+
+.weather-content {
+  width: 450px;
+  height: 250px;
+  /* width: 100%;
+  height: 100%; */
+  background-image: url("https://media.giphy.com/media/6w2i3lDusawmY/giphy.gif");
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.weather {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-content h2{
+  font-family: Impact;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  margin: 0;
+  padding: 5px;
+}
